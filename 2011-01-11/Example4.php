@@ -137,3 +137,44 @@ if ( $result->created == 1 ) {
 elseif ( $result->failed == 1 ) {
     echo "Error: Records not related successfully\n";
 }
+
+// Now read back the related records for this record to verify it
+$parameters = array(
+    'session' => $sessionId,
+    'module_name' => 'Accounts',
+    'module_id' => $accountId,
+    'link_field_name' => 'contacts',
+    );
+$json = json_encode($parameters);
+$postArgs = 'method=get_relationships&input_type=JSON&response_type=JSON&rest_data=' . $json;
+curl_setopt($curl, CURLOPT_POSTFIELDS, $postArgs);
+
+// Make the REST call, returning the result
+$response = curl_exec($curl);
+if (!$response) {
+    die("Connection Failure.\n");
+}
+
+// Convert the result from JSON format to a PHP array
+$result = json_decode($response);
+if ( !is_object($result) ) {
+    die("Error handling result.\n");
+}
+if ( !isset($result->entry_list) ) {
+    die("Error: {$result->name} - {$result->description}\n.");
+}
+
+$found = false;
+foreach ( $result->entry_list as $record ) {
+    if ( $record->id == $contactId ) {
+        $found = true;
+        break;
+    }
+}
+
+if ( $found ) {
+    echo "Found Contact ID {$contactId} related to Account ID {$accountId}!\n";
+}
+else {
+    die("Error: Contact ID {$contactId} not related to Account ID {$accountId}!\n");
+}
