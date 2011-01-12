@@ -9,7 +9,7 @@ You can email any time at jmertic at sugarcrm dot com with any questions you hav
 
 For installing on Windows, this blog entry provides a good guide using XAMPP:
 
-http://joshsweeney.com/2009/03/sugarcrm-a-short-guide-to-intallation-on-windows/
+(http://joshsweeney.com/2009/03/sugarcrm-a-short-guide-to-intallation-on-windows/)
 
 You should be able to do something similar using MAMP if you are using a Mac.
 
@@ -17,15 +17,16 @@ You should be able to do something similar using MAMP if you are using a Mac.
 # SugarCRM Web Services resources
 
 Below is a list of good resources for working with the API and some example code.
-* http://www.ibm.com/developerworks/library/x-sugarcrmrest/index.html ( There are a few errors in the example code; corrected versions of the examples used in the article was shown in the examples in the first class )
-* http://developers.sugarcrm.com/wordpress/category/webservices/
-* http://books.google.com/books?id=EYhKc1gFz2gC&lpg=PP1&pg=PA55#v=onepage&q&f=false ( Web Services chapter of "The Definitive Guide to SugarCRM" )
-* http://www.thewebmasterservice.com/dev-blog/integrating-drupal-and-sugarcrm
+
+* [Being RESTful with SugarCRM](http://www.ibm.com/developerworks/library/x-sugarcrmrest/index.html) - There are a few errors in the example code; corrected versions of the examples used in the article was shown in the examples in the first class.
+* [Sugar Developer Blog - Web Services category](http://developers.sugarcrm.com/wordpress/category/webservices/)
+* [Web Services chapter of "The Definitive Guide to SugarCRM"](http://books.google.com/books?id=EYhKc1gFz2gC&lpg=PP1&pg=PA55#v=onepage&q&f=false) 
+* (http://www.thewebmasterservice.com/dev-blog/integrating-drupal-and-sugarcrm)
 
 Here are few articles that reference working with the original API rather than the newer v2 API. Many of the workflows and calls are similar between the two APIs, so they may be also good references:
 
-* http://systemsconsciousness.com/2009/04/10/sugarcrm-soap-examples/
-* http://systemsconsciousness.com/2009/08/13/sugarcrm-soap-examples-pt-2/
-* http://systemsconsciousness.com/2009/11/24/sugarcrm-soap-examples-pt-3-upload-a-file-via-soap-api/
-* http://www.lornajane.net/posts/2008/SugarCRM-SOAP-API-Examples
-* http://www.beanizer.org/site/index.php/en/Articles/Sugar-CRM-integration-with-custom-PHP-applications-I.html
+* (http://systemsconsciousness.com/2009/04/10/sugarcrm-soap-examples/)
+* (http://systemsconsciousness.com/2009/08/13/sugarcrm-soap-examples-pt-2/)
+* (http://systemsconsciousness.com/2009/11/24/sugarcrm-soap-examples-pt-3-upload-a-file-via-soap-api/)
+* (http://www.lornajane.net/posts/2008/SugarCRM-SOAP-API-Examples)
+* (http://www.beanizer.org/site/index.php/en/Articles/Sugar-CRM-integration-with-custom-PHP-applications-I.html)
