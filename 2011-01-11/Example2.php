@@ -1,7 +1,7 @@
 <?php
 
 // specify the REST web service to interact with
-$url = 'http://localhost/~jmertic/sugarcrm/build/rome/builds/ent/sugarcrm/service/v2/rest.php';                           
+$url = 'http://ruttanvm.cs.kent.edu:4080/service/v2/rest.php';
 
 // Open a curl session for making the call
 $curl = curl_init($url);
@@ -16,8 +16,8 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 // Set the POST arguments to pass to the Sugar server
 $parameters = array(
     'user_auth' => array(
-        'user_name' => 'admin',
-        'password' => md5('sugar'),
+        'user_name' => 'class',
+        'password' => md5('class123'),
         ),
     );
 $json = json_encode($parameters);
