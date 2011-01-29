@@ -21,7 +21,12 @@ $parameters = array(
         ),
     );
 $json = json_encode($parameters);
-$postArgs = 'method=login&input_type=JSON&response_type=JSON&rest_data=' . $json;
+$postArgs = array(
+                'method' => 'login',
+                'input_type' => 'JSON',
+                'response_type' => 'JSON',
+                'rest_data' => $json
+                );
 curl_setopt($curl, CURLOPT_POSTFIELDS, $postArgs);
 
 // Make the REST call, returning the result
