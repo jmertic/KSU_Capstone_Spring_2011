@@ -28,3 +28,25 @@ Here are few articles that reference working with the original API rather than t
 * [http://systemsconsciousness.com/2009/11/24/sugarcrm-soap-examples-pt-3-upload-a-file-via-soap-api/](http://systemsconsciousness.com/2009/11/24/sugarcrm-soap-examples-pt-3-upload-a-file-via-soap-api/)
 * [http://www.lornajane.net/posts/2008/SugarCRM-SOAP-API-Examples](http://www.lornajane.net/posts/2008/SugarCRM-SOAP-API-Examples)
 * [http://www.beanizer.org/site/index.php/en/Articles/Sugar-CRM-integration-with-custom-PHP-applications-I.html](http://www.beanizer.org/site/index.php/en/Articles/Sugar-CRM-integration-with-custom-PHP-applications-I.html)
+
+# Github
+
+There are two github repos for the class
+
+* PHP Team - [https://github.com/jmertic/KSU_Capstone_Spring_2011_PHP/](https://github.com/jmertic/KSU_Capstone_Spring_2011_PHP/)
+* Python Team - [https://github.com/jmertic/KSU_Capstone_Spring_2011_Python/](https://github.com/jmertic/KSU_Capstone_Spring_2011_Python/)
+
+# Coding Standards
+
+* PHP Team - [http://pear.php.net/manual/en/standards.php](PEAR coding standards)
+* Python Team - ???
+
+# Unit Testing
+
+* PHP Team - [https://github.com/sebastianbergmann/phpunit/](PHPUnit)
+* Python Team - ???
+
+A few articles on writing unit tests that mock out web services calls
+
+* [http://www.phpunit.de/manual/current/en/test-doubles.html#test-doubles.stubbing-and-mocking-web-services](http://www.phpunit.de/manual/current/en/test-doubles.html#test-doubles.stubbing-and-mocking-web-services)
+* [http://stackoverflow.com/questions/2458411/how-to-mock-test-a-web-service-in-phpunit-across-multiple-tests](http://stackoverflow.com/questions/2458411/how-to-mock-test-a-web-service-in-phpunit-across-multiple-tests)
